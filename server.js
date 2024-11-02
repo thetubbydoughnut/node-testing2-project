@@ -5,4 +5,4 @@ const jokesRouter = require('./api/jokesRouter.js')
 server.use(express.json())
 server.use('/jokes', jokesRouter)
 
-modules.exports = server
+module.exports = server
